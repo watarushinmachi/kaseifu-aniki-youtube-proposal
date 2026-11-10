@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>家政夫のアニキ御中 YouTube運用 提案資料</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400..900&family=Zen+Kaku+Gothic+New:wght@500;700;900&display=swap">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+html,body{margin:0;height:100%;background:#12192B;overflow:hidden}
+body{font-family:'Noto Sans JP','Hiragino Sans',Meiryo,sans-serif;-webkit-font-smoothing:antialiased;line-break:strict}
+h1,h2,h3,p,ul,ol,li,table{margin:0;padding:0}
+.stage{position:absolute;top:50%;left:50%;width:1920px;height:1080px;transform-origin:0 0}
+.slide{position:absolute;top:0;left:0;width:1920px;height:1080px;overflow:hidden;line-height:1.4;visibility:hidden;opacity:0;transition:opacity .35s ease}
+.slide.active{visibility:visible;opacity:1}
+.slide svg{display:block;flex-shrink:0}
+.slide table{border-collapse:collapse}
+.notes{display:none}
+.ui{position:fixed;right:20px;bottom:16px;display:flex;gap:8px;align-items:center;font:14px 'Noto Sans JP',sans-serif;color:#C9D1E0;z-index:10;opacity:.35;transition:opacity .2s}
+.ui:hover,.ui:focus-within{opacity:1}
+.ui button{font:inherit;color:#F7F4EE;background:#1F2A44;border:1px solid #3A4666;border-radius:6px;padding:6px 12px;cursor:pointer}
+.ui button:focus-visible{outline:2px solid #E6926B;outline-offset:2px}
+.counter{min-width:56px;text-align:center}
+@media (prefers-reduced-motion:reduce){.slide{transition:none}}
+@page{size:1920px 1080px;margin:0}
+@media print{
+  html,body{height:auto;overflow:visible;background:none}
+  .ui{display:none}
+  .stage{position:static;transform:none!important;width:1920px;height:auto}
+  .slide{position:relative;visibility:visible;opacity:1;break-after:page;page-break-after:always}
+}
+</style>
+</head>
+<body>
+<main class="stage" id="stage" aria-live="polite">
+<section class="slide" data-index="0" id="cover" data-transition="fade" style="background:#1F2A44; color:#F7F4EE; font-family:'Noto Sans JP', 'Hiragino Sans', Meiryo, sans-serif; padding:128px; display:flex; flex-direction:column; justify-content:space-between">
+  <p style="font-size:30px; font-weight:700; color:#E6926B; letter-spacing:4px">家政夫のアニキ 御中</p>
+  <div style="display:flex; flex-direction:column; gap:40px">
+    <h1 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:112px; font-weight:700; line-height:1.2">YouTube運用<br>ご提案資料</h1>
+    <div style="width:160px; height:6px; background:#E6926B"></div>
+    <p style="font-size:40px; line-height:1.5; color:#C9D1E0">愛知の片付け・遺品整理のご依頼を<br>YouTubeから集めるご提案</p>
+  </div>
+  <p style="font-size:24px; color:#C9D1E0">2026年11月15日</p>
+  <aside class="notes">本日は、家政夫のアニキ様のYouTubeチャンネル運用をご提案します。前回、集客が安定せず、価格での比べ合いになっていると伺いました。そこで、愛知・岐阜・三重の片付けと遺品整理のご依頼を、YouTubeから集める形を考えました。</aside>
+</section>
+<section class="slide" data-index="1" id="channels" data-transition="fade" style="background:#F7F4EE; color:#1F2A44; font-family:'Noto Sans JP', 'Hiragino Sans', Meiryo, sans-serif; padding:104px 128px 160px; display:flex; flex-direction:column; gap:40px">
+  <div style="display:flex; flex-direction:column; gap:16px">
+    <p style="font-size:24px; font-weight:700; color:#B5462A; letter-spacing:3px">01　前提の共有</p>
+    <h2 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:64px; font-weight:700; line-height:1.3">現在の集客と、YouTubeで得られる効果</h2>
+  </div>
+  <div style="display:flex; gap:32px">
+    <div style="flex:1; display:flex; flex-direction:column; gap:16px; padding:40px; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px">
+      <p style="font-size:24px; font-weight:700; color:#B5462A">ホームページ・Instagram</p>
+      <p style="align-self:flex-start; font-size:24px; font-weight:700; color:#FDFBF7; background:#B5462A; border-radius:6px; padding:2px 14px">集客が安定しない</p>
+      <h3 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:34px; font-weight:700; line-height:1.35; color:#1F2A44">作業実績は見せているが<br>依頼の数に波がある</h3>
+      <p style="font-size:26px; line-height:1.7; color:#4A5264">月によって問い合わせの<br>数が変わり、先の予定を<br>立てにくい状態です。</p>
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:16px; padding:40px; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px">
+      <p style="font-size:24px; font-weight:700; color:#B5462A">相見積もり</p>
+      <p style="align-self:flex-start; font-size:24px; font-weight:700; color:#FDFBF7; background:#B5462A; border-radius:6px; padding:2px 14px">価格競争になる</p>
+      <h3 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:34px; font-weight:700; line-height:1.35; color:#1F2A44">安さで比べられ<br>値下げしないと決まらない</h3>
+      <p style="font-size:26px; line-height:1.7; color:#4A5264">不用品回収は業者が多く<br>料金の安さだけで<br>選ばれやすい状態です。</p>
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:16px; padding:40px; background:#1F2A44; border-radius:12px">
+      <p style="font-size:24px; font-weight:700; color:#E6926B">YouTube</p>
+      <p style="align-self:flex-start; font-size:24px; font-weight:700; color:#FDFBF7; background:#E6926B; border-radius:6px; padding:2px 14px">ご提案</p>
+      <h3 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:34px; font-weight:700; line-height:1.35; color:#F7F4EE">動画でアニキを見た人から<br>依頼が来る</h3>
+      <p style="font-size:26px; line-height:1.7; color:#C9D1E0">片付けの前に調べる人が<br>現場の動画を見て、アニキに<br>頼むと決めてから連絡します。</p>
+    </div>
+  </div>
+  <p style="font-size:24px; color:#6A6F7C">※前回のお打ち合わせで伺ったお話をもとに、弊社で整理したものです。</p>
+  <p style="position:absolute; left:128px; bottom:64px; width:1664px; font-size:24px; color:#6A6F7C">家政夫のアニキ御中　YouTube運用 ご提案資料　｜　02</p>
+  <aside class="notes">前回伺ったお話を整理しました。いまはホームページとInstagramで作業実績を見せていますが、月によって問い合わせの数が変わり、集客が安定しないと伺いました。不用品回収は業者が多く、相見積もりで料金の安さだけで比べられやすいので、値下げしないと決まらないこともあります。YouTubeなら、片付けの前に自分で調べる人が現場の動画でアニキを見て、頼むと決めてから連絡してきます。</aside>
+</section>
+<section class="slide" data-index="2" id="approach" data-transition="fade" style="background:#F7F4EE; color:#1F2A44; font-family:'Noto Sans JP', 'Hiragino Sans', Meiryo, sans-serif; padding:128px 128px 160px; display:flex; flex-direction:column; gap:48px">
+  <div style="display:flex; flex-direction:column; gap:16px">
+    <p style="font-size:24px; font-weight:700; color:#B5462A; letter-spacing:3px">02　YouTubeの一番のメリット</p>
+    <h2 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:64px; font-weight:700; line-height:1.3">顧客の質の向上</h2>
+  </div>
+  <div style="display:flex; gap:24px">
+    <div style="flex:1; display:flex; flex-direction:column; gap:20px; padding:48px; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px">
+      <p style="font-size:24px; font-weight:700; color:#6A6F7C">相見積もりの問い合わせ</p>
+      <h3 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:44px; font-weight:700; line-height:1.3">いちばん安い<br>業者を探す人</h3>
+      <p style="font-size:28px; line-height:1.7; color:#4A5264">何社にも見積もりを頼み<br>料金だけで比べるので<br>値下げの話から始まります。</p>
+    </div>
+    <div style="width:64px; display:flex; align-items:center; justify-content:center">
+      <svg xmlns="http://www.w3.org/2000/svg" aria-label="次へ" viewBox="0 0 56 56" style="width:56px; height:56px"><path d="M6 28 H48 M33 13 L48 28 L33 43" fill="none" stroke="#B5462A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:20px; padding:48px; background:#1F2A44; border-radius:12px">
+      <p style="font-size:24px; font-weight:700; color:#E6926B">YouTubeで得られること</p>
+      <h3 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:44px; font-weight:700; line-height:1.3; color:#F7F4EE">アニキに頼みたい人<br>からの依頼</h3>
+      <p style="font-size:28px; line-height:1.7; color:#C9D1E0">「遺品整理 費用」などで調べ<br>作業の動画を何本か見て<br>納得した人から連絡が来ます。</p>
+    </div>
+  </div>
+  <p style="font-size:28px; line-height:1.6; color:#1F2A44">再生数は追いません。<span style="color:#B5462A; font-weight:700">愛知・岐阜・三重で片付けを頼みたい人</span>に絞って届けます。</p>
+  <p style="position:absolute; left:128px; bottom:64px; width:1664px; font-size:24px; color:#6A6F7C">家政夫のアニキ御中　YouTube運用 ご提案資料　｜　03</p>
+  <aside class="notes">YouTubeの一番のメリットは、顧客の質が上がることです。相見積もりの問い合わせは、何社にも見積もりを頼んで、いちばん安い業者を探している人からです。YouTubeでは、「遺品整理 費用」などで調べて作業の動画を何本か見た人が、アニキの仕事ぶりに納得してから連絡してきます。料金の安さではなく、アニキに頼みたいという理由で選ばれます。再生数は追わず、愛知・岐阜・三重で片付けを頼みたい人に絞って届けます。</aside>
+</section>
+<section class="slide" data-index="3" id="concept" data-transition="fade" style="background:#F7F4EE; color:#1F2A44; font-family:'Noto Sans JP', 'Hiragino Sans', Meiryo, sans-serif; padding:72px 128px 160px; display:flex; flex-direction:column; gap:24px">
+  <div style="display:flex; flex-direction:column; gap:16px">
+    <p style="font-size:24px; font-weight:700; color:#B5462A; letter-spacing:3px">03　チャンネルの方針</p>
+    <h2 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:64px; font-weight:700; line-height:1.3">実家の片付けと遺品整理の現場を<br>遺品整理士の<span style="color:#B5462A">家政夫のアニキ</span>が見せるチャンネル</h2>
+  </div>
+  <div style="display:flex; flex-direction:column; gap:12px; background:#1F2A44; border-radius:12px; padding:24px 48px">
+    <p style="font-size:24px; font-weight:700; color:#E6926B">1本ごとの作り</p>
+    <p style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:44px; font-weight:700; color:#F7F4EE">片付けの悩み　→　アニキの現場で答えを見せる</p>
+    <p style="font-size:26px; color:#C9D1E0">例：親の家が物であふれている → 3日間の片付けに密着　／　費用が心配 → 買取で作業料金を相殺した例</p>
+  </div>
+  <div style="display:flex; gap:32px">
+    <div style="flex:1; display:flex; flex-direction:column; gap:16px; padding:40px; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px">
+      <p style="font-size:24px; font-weight:700; color:#B5462A">誰に</p>
+      <h3 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:34px; font-weight:700; line-height:1.35; color:#1F2A44">愛知・岐阜・三重に<br>実家がある40〜60代</h3>
+      <p style="font-size:26px; line-height:1.7; color:#4A5264">親の家の片付けを<br>考えている子世代と<br>その親です。</p>
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:16px; padding:40px; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px">
+      <p style="font-size:24px; font-weight:700; color:#B5462A">何を</p>
+      <h3 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:34px; font-weight:700; line-height:1.35; color:#1F2A44">作業の流れと<br>料金の内訳</h3>
+      <p style="font-size:26px; line-height:1.7; color:#4A5264">かかった費用や買取の<br>金額まで見せて、頼む前の<br>不安をなくします。</p>
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:16px; padding:40px; background:#1F2A44; border-radius:12px">
+      <p style="font-size:24px; font-weight:700; color:#E6926B">ゴール</p>
+      <h3 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:34px; font-weight:700; line-height:1.35; color:#F7F4EE">片付け・遺品整理の<br>見積もり依頼</h3>
+      <p style="font-size:26px; line-height:1.7; color:#C9D1E0">公式LINEで部屋の写真を<br>送ってもらい、無料の<br>出張見積もりにつなげます。</p>
+    </div>
+  </div>
+  <p style="position:absolute; left:128px; bottom:64px; width:1664px; font-size:24px; color:#6A6F7C">家政夫のアニキ御中　YouTube運用 ご提案資料　｜　04</p>
+  <aside class="notes">チャンネルは、実家の片付けと遺品整理の現場を、遺品整理士でもあるアニキが見せる形にします。1本に1つ片付けの悩みを取り上げ、アニキの現場で答えを見せます。届ける相手は、愛知・岐阜・三重に実家がある40〜60代の子世代と、その親です。作業の流れ、かかった費用、買取の金額まで見せて、頼む前の不安をなくします。ゴールは、公式LINEに部屋の写真を送ってもらい、無料の出張見積もりにつなげることです。</aside>
+</section>
+<section class="slide" data-index="4" id="image" data-transition="fade" style="background:#F7F4EE; color:#1F2A44; font-family:'Noto Sans JP', 'Hiragino Sans', Meiryo, sans-serif; padding:96px 128px 160px; display:flex; flex-direction:column; gap:32px">
+  <div style="display:flex; flex-direction:column; gap:16px">
+    <p style="font-size:24px; font-weight:700; color:#B5462A; letter-spacing:3px">04　片付けのYouTube市場</p>
+    <h2 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:64px; font-weight:700; line-height:1.3">市場の広い、実家の片付けのYouTube</h2>
+  </div>
+  <div style="display:flex; gap:32px; align-items:stretch">
+    <div style="flex:1; display:flex; flex-direction:column; gap:12px; justify-content:center; background:#1F2A44; border-radius:12px; padding:24px 40px">
+      <p style="font-size:24px; font-weight:700; color:#E6926B">イメージに近いチャンネル</p>
+      <p style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:34px; font-weight:700; line-height:1.35; color:#F7F4EE">イーブイ片付けチャンネル</p>
+      <p style="font-size:24px; color:#C9D1E0">登録者20.4万人（2026年11月10日時点）</p>
+      <a href="https://www.youtube.com/@katazuke" target="_blank" style="font-size:24px; font-weight:700; color:#E6926B">チャンネルを見る →</a>
+    </div>
+    <div style="width:640px; border:1px solid #E2DBCD; border-radius:12px; overflow:hidden; background:#FFFFFF; display:flex; align-items:center"><img src="img/katazuke_top.jpg" alt="イーブイ片付けチャンネルのトップページ" style="display:block; width:100%; height:auto"></div>
+  </div>
+  <div style="display:flex; flex-direction:column; gap:12px">
+    <p style="font-size:24px; font-weight:700; color:#B5462A">実家の片付け・遺品整理・生前整理を扱った回（再生数は2026年11月10日時点）</p>
+    <div style="display:flex; gap:32px">
+      <div style="width:470px; display:flex; flex-direction:column; gap:8px">
+        <img src="img/t_ieRKl6L5UaE.jpg" alt="実家の片付けの回のサムネイル" style="display:block; width:100%; height:auto; border-radius:10px">
+        <p style="font-size:24px; color:#4A5264">22.5万回</p>
+      </div>
+      <div style="width:470px; display:flex; flex-direction:column; gap:8px">
+        <img src="img/t_Xu5tv3DVAeI.jpg" alt="遺品整理の料金の回のサムネイル" style="display:block; width:100%; height:auto; border-radius:10px">
+        <p style="font-size:24px; color:#4A5264">19.3万回</p>
+      </div>
+      <div style="width:470px; display:flex; flex-direction:column; gap:8px">
+        <img src="img/t_YTUFW78xluM.jpg" alt="生前整理の回のサムネイル" style="display:block; width:100%; height:auto; border-radius:10px">
+        <p style="font-size:24px; color:#4A5264">13.8万回</p>
+      </div>
+    </div>
+  </div>
+  <p style="position:absolute; left:128px; bottom:64px; width:1664px; font-size:24px; color:#6A6F7C">家政夫のアニキ御中　YouTube運用 ご提案資料　｜　05</p>
+  <aside class="notes">片付けのYouTube市場は、十分な広さがあります。イメージに近いのは、イーブイ片付けチャンネル（登録者20.4万人）です。トップページと、実家の片付け・遺品整理・生前整理を扱った回のサムネを3枚お見せします。再生数は22.5万回、19.3万回、13.8万回でした（2026年11月10日時点）。遺品整理の料金を説明しただけの回でも19万回以上見られています。</aside>
+</section>
+<section class="slide" data-index="5" id="personas" data-transition="fade" style="background:#F7F4EE; color:#1F2A44; font-family:'Noto Sans JP', 'Hiragino Sans', Meiryo, sans-serif; padding:80px 128px 140px; display:flex; flex-direction:column; gap:24px">
+  <div style="display:flex; flex-direction:column; gap:16px">
+    <p style="font-size:24px; font-weight:700; color:#B5462A; letter-spacing:3px">05　狙う視聴者</p>
+    <h2 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:64px; font-weight:700; line-height:1.3">愛知・岐阜・三重で、実家の片付けを考える人</h2>
+  </div>
+  <div style="display:flex; gap:32px">
+    <div style="flex:1; display:flex; flex-direction:column; gap:10px; padding:28px 36px; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px">
+      <p style="font-size:24px; font-weight:700; color:#B5462A">視聴者1</p>
+      <h3 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:32px; font-weight:700; line-height:1.35; color:#1F2A44">離れて暮らす親の家を<br>片付けたい40〜60代</h3>
+      <p style="font-size:24px; line-height:1.55; color:#4A5264">実家が遠くて通えない。<br>立ち会えるかも不安。<br>SEO：実家 片付け 業者<br>遺品整理 立ち会いなし</p>
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:10px; padding:28px 36px; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px">
+      <p style="font-size:24px; font-weight:700; color:#B5462A">視聴者2</p>
+      <h3 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:32px; font-weight:700; line-height:1.35; color:#1F2A44">親を亡くし<br>遺品整理が必要な人</h3>
+      <p style="font-size:24px; line-height:1.55; color:#4A5264">何から手をつけるか<br>いくらかかるか分からない。<br>SEO：遺品整理 費用<br>遺品整理 愛知</p>
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:10px; padding:28px 36px; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px">
+      <p style="font-size:24px; font-weight:700; color:#B5462A">視聴者3</p>
+      <h3 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:32px; font-weight:700; line-height:1.35; color:#1F2A44">自分の生前整理を<br>考える60〜70代</h3>
+      <p style="font-size:24px; line-height:1.55; color:#4A5264">子どもに迷惑をかけたくない。<br>売れる物は売りたい。<br>SEO：生前整理 業者<br>不用品 買取 回収</p>
+    </div>
+  </div>
+  <div style="display:flex; gap:40px; align-items:center; background:#1F2A44; border-radius:12px; padding:24px 40px">
+    <div style="flex:1; display:flex; flex-direction:column; gap:6px">
+      <p style="font-size:22px; font-weight:700; color:#E6926B">愛知に絞る理由</p>
+      <p style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:34px; font-weight:700; line-height:1.35; color:#F7F4EE">愛知に絞った片付け・遺品整理のチャンネルは、まだ少ない</p>
+      <p style="font-size:22px; line-height:1.55; color:#C9D1E0">片付けを頼む人は、家まで来てもらえる近くの業者を探すので、地域を絞っても問い合わせの数は十分に見込めます。</p>
+    </div>
+    <div style="width:560px; display:flex; flex-direction:column; gap:4px; border-left:1px solid #3A4560; padding-left:32px">
+      <p style="font-size:20px; color:#C9D1E0">全国向けの片付けチャンネル</p>
+      <p style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:30px; font-weight:700; color:#F7F4EE">登録者 20.4万人</p>
+      <p style="font-size:20px; color:#C9D1E0">愛知に絞った片付け・遺品整理チャンネル</p>
+      <p style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:30px; font-weight:700; color:#E6926B">いちばん大きくて 7,380人</p>
+    </div>
+  </div>
+  <p style="font-size:20px; line-height:1.5; color:#6A6F7C">愛知の主な片付け・遺品整理チャンネル（2026年11月10日時点）：愛知遺品整理天善（名古屋市）7,380人／遺品整理のファーストクリーニング 38人／株式会社トリプルエー（名古屋市）12人。<br>※視聴者像は想定です。家政夫のアニキ様に実際に来ているご相談に合わせて直します。</p>
+  <p style="position:absolute; left:128px; bottom:64px; width:1664px; font-size:24px; color:#6A6F7C">家政夫のアニキ御中　YouTube運用 ご提案資料　｜　06</p>
+  <aside class="notes">狙う視聴者は3人に絞りました。1人目は、離れて暮らす親の家を片付けたい40〜60代です。実家が遠くて通えず、立ち会えるかも不安に思っています。2人目は、親を亡くして遺品整理が必要になった人です。何から手をつけるか、いくらかかるかが分かりません。3人目は、自分の生前整理を考える60〜70代です。どれも、家政夫のアニキ様のホームページで打ち出している相談（遠方の方の鍵預かり、遺品整理士の対応、生前整理、買取）にあたります。想定なので、実際に来ているご相談に合わせて直します。愛知に絞る理由もお伝えします。片付けを頼む人は、家まで来てもらえる近くの業者を探します。全国向けのイーブイ片付けチャンネルは登録者20.4万人ですが、愛知に絞った片付け・遺品整理のチャンネルは、いちばん大きい愛知遺品整理天善でも7,380人で、ほかは数十人です。地域を絞っても、問い合わせの数は十分に見込めます。</aside>
+</section>
+<section class="slide" data-index="6" id="ideas" data-transition="fade" style="background:#F7F4EE; color:#1F2A44; font-family:'Noto Sans JP', 'Hiragino Sans', Meiryo, sans-serif; padding:88px 128px 160px; display:flex; flex-direction:column; gap:28px">
+  <div style="display:flex; flex-direction:column; gap:16px">
+    <p style="font-size:24px; font-weight:700; color:#B5462A; letter-spacing:3px">06　企画の切り口</p>
+    <h2 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:64px; font-weight:700; line-height:1.3">頼む前に調べることへの答えと、地元の現場</h2>
+  </div>
+  <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px 24px">
+    <div style="display:flex; gap:20px; align-items:center; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px; padding:18px 28px">
+      <p style="width:48px; font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:36px; font-weight:900; color:#B5462A">1</p>
+      <div style="flex:1; display:flex; flex-direction:column; gap:4px"><h3 style="font-size:28px; font-weight:700">遺品整理、いくらかかる？</h3><p style="font-size:24px; color:#4A5264">→ 間取りごとの料金と、実際の見積もり</p></div>
+    </div>
+    <div style="display:flex; gap:20px; align-items:center; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px; padding:18px 28px">
+      <p style="width:48px; font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:36px; font-weight:900; color:#B5462A">2</p>
+      <div style="flex:1; display:flex; flex-direction:column; gap:4px"><h3 style="font-size:28px; font-weight:700">実家の片付け、何から始める？</h3><p style="font-size:24px; color:#4A5264">→ 残す物と手放す物の分け方</p></div>
+    </div>
+    <div style="display:flex; gap:20px; align-items:center; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px; padding:18px 28px">
+      <p style="width:48px; font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:36px; font-weight:900; color:#B5462A">3</p>
+      <div style="flex:1; display:flex; flex-direction:column; gap:4px"><h3 style="font-size:28px; font-weight:700">捨てる前に確認したい、売れる物</h3><p style="font-size:24px; color:#4A5264">→ 買取で作業料金が0円になった例</p></div>
+    </div>
+    <div style="display:flex; gap:20px; align-items:center; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px; padding:18px 28px">
+      <p style="width:48px; font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:36px; font-weight:900; color:#B5462A">4</p>
+      <div style="flex:1; display:flex; flex-direction:column; gap:4px"><h3 style="font-size:28px; font-weight:700">他社で断られた物、回収できる？</h3><p style="font-size:24px; color:#4A5264">→ 大型家具・家電の取り外しと回収</p></div>
+    </div>
+    <div style="display:flex; gap:20px; align-items:center; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px; padding:18px 28px">
+      <p style="width:48px; font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:36px; font-weight:900; color:#B5462A">5</p>
+      <div style="flex:1; display:flex; flex-direction:column; gap:4px"><h3 style="font-size:28px; font-weight:700">遠くに住んでいても頼める？</h3><p style="font-size:24px; color:#4A5264">→ 立ち会いなし・鍵預かりの流れ</p></div>
+    </div>
+    <div style="display:flex; gap:20px; align-items:center; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px; padding:18px 28px">
+      <p style="width:48px; font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:36px; font-weight:900; color:#B5462A">6</p>
+      <div style="flex:1; display:flex; flex-direction:column; gap:4px"><h3 style="font-size:28px; font-weight:700">生前整理は何歳から始める？</h3><p style="font-size:24px; color:#4A5264">→ 子どもに負担を残さない片付け方</p></div>
+    </div>
+    <div style="display:flex; gap:20px; align-items:center; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px; padding:18px 28px">
+      <p style="width:48px; font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:36px; font-weight:900; color:#B5462A">7</p>
+      <div style="flex:1; display:flex; flex-direction:column; gap:4px"><h3 style="font-size:28px; font-weight:700">岡崎市の3LDK、丸ごと片付け<span style="font-size:22px; font-weight:700; color:#FDFBF7; background:#B5462A; border-radius:6px; padding:2px 10px; margin-left:12px">密着</span></h3><p style="font-size:24px; color:#4A5264">→ 作業の一部始終と、かかった費用</p></div>
+    </div>
+    <div style="display:flex; gap:20px; align-items:center; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px; padding:18px 28px">
+      <p style="width:48px; font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:36px; font-weight:900; color:#B5462A">8</p>
+      <div style="flex:1; display:flex; flex-direction:column; gap:4px"><h3 style="font-size:28px; font-weight:700">3日間・トラック15台の遺品整理<span style="font-size:22px; font-weight:700; color:#FDFBF7; background:#B5462A; border-radius:6px; padding:2px 10px; margin-left:12px">密着</span></h3><p style="font-size:24px; color:#4A5264">→ 作業料金100万円、買取25万円の内訳</p></div>
+    </div>
+  </div>
+  <p style="font-size:24px; color:#6A6F7C">「密着」の回では、岡崎市など地元の現場で、作業の様子と費用をそのまま見せます。</p>
+  <p style="position:absolute; left:128px; bottom:64px; width:1664px; font-size:24px; color:#6A6F7C">家政夫のアニキ御中　YouTube運用 ご提案資料　｜　07</p>
+  <aside class="notes">企画の切り口を8本出しました。1〜6は、片付けを頼む前に調べること（費用・始め方・売れる物・他社で断られた物・遠方からの依頼・生前整理）に答える回です。ほかの地域の人も見ますが、アニキの顔と名前を覚えてもらえれば十分です。7と8の「密着」の回では、地元の現場で作業の様子と費用をそのまま見せます。8は、ホームページに載っている山県市の遺品整理（延べ30名・3日間、作業料金100万円、買取25万円）のような大きな現場を想定しています。</aside>
+</section>
+<section class="slide" data-index="7" id="pillars" data-transition="fade" style="background:#F7F4EE; color:#1F2A44; font-family:'Noto Sans JP', 'Hiragino Sans', Meiryo, sans-serif; padding:128px 128px 160px; display:flex; flex-direction:column; gap:48px">
+  <div style="display:flex; flex-direction:column; gap:16px">
+    <p style="font-size:24px; font-weight:700; color:#B5462A; letter-spacing:3px">07　動画の2本柱</p>
+    <h2 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:64px; font-weight:700; line-height:1.3">現場密着と、家政夫のアニキが事業を作る過程</h2>
+  </div>
+  <div style="display:flex; gap:32px">
+    <div style="flex:1; display:flex; flex-direction:column; gap:20px; padding:48px; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px">
+      <p style="font-size:24px; font-weight:700; color:#6A6F7C">① 現場密着　｜　目的：頼む前の不安をなくす</p>
+      <h3 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:44px; font-weight:700; line-height:1.3">現場に密着する動画</h3>
+      <p style="font-size:28px; line-height:1.7; color:#4A5264">片付けの前と後、作業の手順、料金の内訳まで<br>見せます。「この人なら家に上げても大丈夫」と<br>思ってもらう回です。</p>
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:20px; padding:48px; background:#1F2A44; border-radius:12px">
+      <p style="font-size:24px; font-weight:700; color:#E6926B">② 事業づくりの過程　｜　目的：ファンを増やす</p>
+      <h3 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:44px; font-weight:700; line-height:1.3; color:#F7F4EE">アニキの挑戦を追う動画</h3>
+      <p style="font-size:28px; line-height:1.7; color:#C9D1E0">男性の家政夫というサービスを<br>どう形にしていくかを、毎回見せます。<br>できあがる前から見た人が、ファンになります。</p>
+    </div>
+  </div>
+  <p style="font-size:28px; line-height:1.6; color:#1F2A44">事業づくりの過程は、将来<span style="color:#B5462A; font-weight:700">フランチャイズの加盟者を集める</span>ときにも使えます。</p>
+  <p style="position:absolute; left:128px; bottom:64px; width:1664px; font-size:24px; color:#6A6F7C">家政夫のアニキ御中　YouTube運用 ご提案資料　｜　08</p>
+  <aside class="notes">動画は2つの柱で考えています。1つ目は現場密着です。片付けの前と後、作業の手順、料金の内訳まで見せて、「この人なら家に上げても大丈夫」と思ってもらいます。2つ目は、男性の家政夫というサービスを、アニキがどう形にしていくかを毎回見せる動画です。前回お話しした「100日後に死ぬワニ」は、結末が分からないまま毎日1話ずつ更新され、少しずつファンが増えました。サービスができあがってから始めるのではなく、作っている途中から見てもらうことで、応援してくれる人が増えます。この過程の動画は、将来フランチャイズの加盟者を集めるときにも使えます。</aside>
+</section>
+<section class="slide" data-index="8" id="funnel" data-transition="fade" style="background:#F7F4EE; color:#1F2A44; font-family:'Noto Sans JP', 'Hiragino Sans', Meiryo, sans-serif; padding:128px 128px 160px; display:flex; flex-direction:column; gap:48px">
+  <div style="display:flex; flex-direction:column; gap:16px">
+    <p style="font-size:24px; font-weight:700; color:#B5462A; letter-spacing:3px">08　問い合わせまでの流れ</p>
+    <h2 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:64px; font-weight:700; line-height:1.3">YouTubeからの流入を、公式LINE経由で見積もり依頼へ</h2>
+  </div>
+  <div style="display:flex; gap:12px; align-items:stretch">
+    <div style="flex:1; display:flex; flex-direction:column; gap:12px; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px; padding:32px">
+      <p style="font-size:24px; font-weight:700; color:#B5462A">STEP 1</p>
+      <h3 style="font-size:30px; font-weight:700; line-height:1.4">片付けの<br>情報収集</h3>
+      <p style="font-size:24px; line-height:1.6; color:#4A5264">費用や業者を<br>調べて動画を見る</p>
+    </div>
+<div style="width:32px; display:flex; align-items:center; justify-content:center"><svg aria-label="次へ" width="32" height="40" viewBox="0 0 32 40"><path d="M3 20 H27 M18 11 L27 20 L18 29" fill="none" stroke="#B5462A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:12px; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px; padding:32px">
+      <p style="font-size:24px; font-weight:700; color:#B5462A">STEP 2</p>
+      <h3 style="font-size:30px; font-weight:700; line-height:1.4">現場の<br>動画を見る</h3>
+      <p style="font-size:24px; line-height:1.6; color:#4A5264">作業の様子と<br>アニキを知る</p>
+    </div>
+<div style="width:32px; display:flex; align-items:center; justify-content:center"><svg aria-label="次へ" width="32" height="40" viewBox="0 0 32 40"><path d="M3 20 H27 M18 11 L27 20 L18 29" fill="none" stroke="#B5462A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:12px; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px; padding:32px">
+      <p style="font-size:24px; font-weight:700; color:#B5462A">STEP 3</p>
+      <h3 style="font-size:30px; font-weight:700; line-height:1.4">公式LINEに<br>写真を送る</h3>
+      <p style="font-size:24px; line-height:1.6; color:#4A5264">部屋の写真で<br>見積もりを相談</p>
+    </div>
+<div style="width:32px; display:flex; align-items:center; justify-content:center"><svg aria-label="次へ" width="32" height="40" viewBox="0 0 32 40"><path d="M3 20 H27 M18 11 L27 20 L18 29" fill="none" stroke="#B5462A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:12px; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px; padding:32px">
+      <p style="font-size:24px; font-weight:700; color:#B5462A">STEP 4</p>
+      <h3 style="font-size:30px; font-weight:700; line-height:1.4">無料の<br>出張見積もり</h3>
+      <p style="font-size:24px; line-height:1.6; color:#4A5264">家に伺って<br>金額を出す</p>
+    </div>
+<div style="width:32px; display:flex; align-items:center; justify-content:center"><svg aria-label="次へ" width="32" height="40" viewBox="0 0 32 40"><path d="M3 20 H27 M18 11 L27 20 L18 29" fill="none" stroke="#B5462A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:12px; background:#1F2A44; color:#F7F4EE; border-radius:12px; padding:32px">
+      <p style="font-size:24px; font-weight:700; color:#E6926B">GOAL</p>
+      <h3 style="font-size:30px; font-weight:700; line-height:1.4">片付け・<br>遺品整理の<br>ご依頼へ</h3>
+    </div>
+  </div>
+  <p style="font-size:24px; color:#6A6F7C">動画の概要欄に、電話番号と公式LINEのリンクを載せます。</p>
+  <p style="position:absolute; left:128px; bottom:64px; width:1664px; font-size:24px; color:#6A6F7C">家政夫のアニキ御中　YouTube運用 ご提案資料　｜　09</p>
+  <aside class="notes">片付けの費用や業者の選び方を調べている人が悩みの回にたどり着き、現場の動画で作業の様子とアニキを知る、という順番です。ホームページでも案内されているとおり、公式LINEに部屋の写真を送ってもらうと見積もりの相談がスムーズです。そこから無料の出張見積もりに伺い、片付け・遺品整理のご依頼につなげます。動画の概要欄には、電話番号と公式LINEのリンクを載せます。</aside>
+</section>
+<section class="slide" data-index="9" id="effects" data-transition="fade" style="background:#F7F4EE; color:#1F2A44; font-family:'Noto Sans JP', 'Hiragino Sans', Meiryo, sans-serif; padding:96px 128px 160px; display:flex; flex-direction:column; gap:36px">
+  <div style="display:flex; flex-direction:column; gap:16px">
+    <p style="font-size:24px; font-weight:700; color:#B5462A; letter-spacing:3px">09　効果</p>
+    <h2 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:64px; font-weight:700; line-height:1.3">YouTubeで得られる効果</h2>
+  </div>
+  <div style="display:flex; gap:32px">
+    <div style="flex:1; display:flex; flex-direction:column; gap:16px; padding:40px; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px">
+      <p style="font-size:24px; font-weight:700; color:#B5462A">効果1</p>
+      <h3 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:32px; font-weight:700; line-height:1.35; color:#1F2A44">資産になる動画が<br>24時間回り続ける</h3>
+      <p style="font-size:26px; line-height:1.7; color:#4A5264">Instagramの投稿は数日で<br>流れますが、動画は公開後も<br>検索で見られ続けます。<br>月4本なら1年で48本です。</p>
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:16px; padding:40px; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px">
+      <p style="font-size:24px; font-weight:700; color:#B5462A">効果2</p>
+      <h3 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:32px; font-weight:700; line-height:1.35; color:#1F2A44">今の集客の<br>CVRが上がる</h3>
+      <p style="font-size:26px; line-height:1.7; color:#4A5264">ホームページとInstagramに<br>YouTubeのリンクを貼ります。<br>作業の様子を見てから<br>頼む人が増えます。</p>
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:16px; padding:40px; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px">
+      <p style="font-size:24px; font-weight:700; color:#B5462A">効果3</p>
+      <h3 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:32px; font-weight:700; line-height:1.35; color:#1F2A44">AI検索で<br>上位に表示されやすい</h3>
+      <p style="font-size:26px; line-height:1.7; color:#4A5264">ChatGPTやGoogleのAIに<br>片付けの業者を聞いた人に<br>アニキの動画が<br>答えとして出やすくなります。</p>
+    </div>
+  </div>
+  <p style="font-size:24px; line-height:1.6; color:#6A6F7C">※GoogleのAI Overviewsが答えに使う情報源のうち、29.5%がYouTubeで、サイト別で1位です（BrightEdge調べ、2024年5月〜2025年9月）。</p>
+  <p style="position:absolute; left:128px; bottom:64px; width:1664px; font-size:24px; color:#6A6F7C">家政夫のアニキ御中　YouTube運用 ご提案資料　｜　10</p>
+  <aside class="notes">YouTubeで得られる効果は3つあります。1つ目は、資産になる動画が24時間回り続けることです。Instagramの投稿は数日で流れてしまいますが、動画は公開したあとも検索で見られ続け、月4本なら1年で48本たまります。2つ目は、今の集客のCVRが上がることです。ホームページとInstagramにYouTubeのリンクを貼り、作業の様子を見てから頼む人を増やします。今の手段のまま、問い合わせを増やせます。3つ目は、AI検索で上位に表示されやすいことです。GoogleのAI Overviewsが答えに使う情報源のうち、29.5%がYouTubeで、サイト別で1位です（BrightEdge調べ）。</aside>
+</section>
+<section class="slide" data-index="10" id="results" data-transition="fade" style="background:#F7F4EE; color:#1F2A44; font-family:'Noto Sans JP', 'Hiragino Sans', Meiryo, sans-serif; padding:112px 128px 160px; display:flex; flex-direction:column; gap:40px">
+  <div style="display:flex; flex-direction:column; gap:16px">
+    <p style="font-size:24px; font-weight:700; color:#B5462A; letter-spacing:3px">10　運用の実績</p>
+    <h2 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:64px; font-weight:700; line-height:1.3">登録者が少なくても、問い合わせにつながる実績</h2>
+  </div>
+  <div style="display:flex; gap:40px">
+    <div style="width:560px; display:flex; flex-direction:column; gap:16px; justify-content:center; padding:48px; background:#1F2A44; border-radius:12px">
+      <p style="font-size:26px; font-weight:700; color:#E6926B">大阪の断熱リフォーム会社</p>
+      <p style="font-size:26px; color:#C9D1E0">登録者 約740人で<br>YouTube経由の問い合わせ</p>
+      <p style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:88px; font-weight:900; line-height:1.15; color:#F7F4EE">月約10件</p>
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:24px; justify-content:center">
+      <table style="font-size:28px; color:#1F2A44">
+        <tr><th style="padding:20px 16px; text-align:left; color:#6A6F7C; border-bottom:2px solid #1F2A44">項目</th><th style="padding:20px 16px; text-align:left; color:#6A6F7C; border-bottom:2px solid #1F2A44">数字</th></tr>
+        <tr><td style="padding:20px 16px; border-bottom:1px solid #E2DBCD; white-space:nowrap">運用期間・本数</td><td style="padding:20px 16px; border-bottom:1px solid #E2DBCD; color:#B5462A">約1年、週1本のペースで投稿</td></tr>
+        <tr><td style="padding:20px 16px; border-bottom:1px solid #E2DBCD; white-space:nowrap">登録者数</td><td style="padding:20px 16px; border-bottom:1px solid #E2DBCD; color:#B5462A">約740人</td></tr>
+        <tr><td style="padding:20px 16px; border-bottom:1px solid #E2DBCD; white-space:nowrap">問い合わせ</td><td style="padding:20px 16px; border-bottom:1px solid #E2DBCD; color:#B5462A">YouTube経由で月約10件（大阪市内が中心）</td></tr>
+        <tr><td style="padding:20px 16px; border-bottom:1px solid #E2DBCD; white-space:nowrap">成約</td><td style="padding:20px 16px; border-bottom:1px solid #E2DBCD; color:#B5462A">1件100〜200万円の工事で、成約率7〜8割</td></tr>
+      </table>
+      <p style="font-size:24px; line-height:1.6; color:#6A6F7C">社名は非公開です。チャンネルは打ち合わせの場でお見せします。</p>
+    </div>
+  </div>
+  <p style="position:absolute; left:128px; bottom:64px; width:1664px; font-size:24px; color:#6A6F7C">家政夫のアニキ御中　YouTube運用 ご提案資料　｜　11</p>
+  <aside class="notes">前回もお話しした、大阪市内を中心に断熱リフォームをされている会社の実績です。約1年、週1本のペースで運用していて、登録者は約740人ですが、YouTube経由の問い合わせが月に約10件あります。1件100〜200万円の工事で、成約率は7〜8割です。現場に密着した動画で、丁寧な仕事ぶりを見せたことが問い合わせにつながっています。家政夫のアニキ様の現場も、同じ形で見せられると考えています。</aside>
+</section>
+<section class="slide" data-index="11" id="goal" data-transition="fade" style="background:#F7F4EE; color:#1F2A44; font-family:'Noto Sans JP', 'Hiragino Sans', Meiryo, sans-serif; padding:112px 128px 160px; display:flex; flex-direction:column; gap:48px">
+  <div style="display:flex; flex-direction:column; gap:16px">
+    <p style="font-size:24px; font-weight:700; color:#B5462A; letter-spacing:3px">11　問い合わせ数の目標</p>
+    <h2 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:64px; font-weight:700; line-height:1.3">1年後に、月10件の問い合わせ</h2>
+  </div>
+  <div style="display:flex; gap:12px; align-items:stretch">
+    <div style="flex:1; display:flex; flex-direction:column; gap:12px; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px; padding:40px">
+      <p style="font-size:28px; font-weight:700; color:#B5462A">3か月後</p>
+      <p style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:72px; font-weight:900; line-height:1.15; color:#1F2A44">月1〜3件</p>
+      <p style="font-size:26px; line-height:1.6; color:#4A5264">最初の問い合わせが<br>入り始めます</p>
+    </div>
+    <div style="width:40px; display:flex; align-items:center; justify-content:center"><svg aria-label="次へ" width="32" height="40" viewBox="0 0 32 40"><path d="M3 20 H27 M18 11 L27 20 L18 29" fill="none" stroke="#B5462A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:12px; background:#FDFBF7; border:1px solid #E2DBCD; border-radius:12px; padding:40px">
+      <p style="font-size:28px; font-weight:700; color:#B5462A">半年後</p>
+      <p style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:72px; font-weight:900; line-height:1.15; color:#1F2A44">月5件</p>
+      <p style="font-size:26px; line-height:1.6; color:#4A5264">反応のよい企画を増やして<br>件数を伸ばします</p>
+    </div>
+    <div style="width:40px; display:flex; align-items:center; justify-content:center"><svg aria-label="次へ" width="32" height="40" viewBox="0 0 32 40"><path d="M3 20 H27 M18 11 L27 20 L18 29" fill="none" stroke="#B5462A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:12px; background:#1F2A44; border-radius:12px; padding:40px">
+      <p style="font-size:28px; font-weight:700; color:#E6926B">1年後</p>
+      <p style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:72px; font-weight:900; line-height:1.15; color:#F7F4EE">月10件</p>
+      <p style="font-size:26px; line-height:1.6; color:#C9D1E0">月10件の問い合わせを<br>安定して得ます</p>
+    </div>
+  </div>
+  <p style="font-size:24px; color:#6A6F7C">※目標の数字です。撮影の本数や、動画にできる現場の数によって変わります。</p>
+  <p style="position:absolute; left:128px; bottom:64px; width:1664px; font-size:24px; color:#6A6F7C">家政夫のアニキ御中　YouTube運用 ご提案資料　｜　12</p>
+  <aside class="notes">問い合わせ数の目標です。3か月後ぐらいから月に1〜3件の問い合わせが入り始め、半年で月5件、1年後には月10件の問い合わせを安定して得ることを目標にします。先ほどの断熱リフォームの会社が、約1年で月10件になったことを基準にしています。目標の数字なので、撮影の本数や、動画にできる現場の数によって変わります。</aside>
+</section>
+<section class="slide" data-index="12" id="price" data-transition="fade" style="background:#F7F4EE; color:#1F2A44; font-family:'Noto Sans JP', 'Hiragino Sans', Meiryo, sans-serif; padding:96px 128px 160px; display:flex; flex-direction:column; gap:36px">
+  <div style="display:flex; flex-direction:column; gap:16px">
+    <p style="font-size:24px; font-weight:700; color:#B5462A; letter-spacing:3px">12　運用プラン</p>
+    <h2 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:64px; font-weight:700; line-height:1.3">運用プランと料金</h2>
+  </div>
+  <div style="display:flex; gap:32px; align-items:stretch">
+    <div style="flex:1; display:flex; flex-direction:column; gap:8px; background:#FDFBF7; border:1px solid #E2DBCD; border-top:8px solid #B5462A; border-radius:12px; padding:36px 48px">
+      <p style="font-size:24px; font-weight:700; color:#B5462A">まず始める</p>
+      <h3 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:40px; font-weight:700; color:#1F2A44">月2本プラン</h3>
+      <div style="display:flex; gap:24px; padding:14px 0; border-bottom:1px solid #E2DBCD"><p style="width:120px; flex-shrink:0; font-size:24px; font-weight:700; color:#B5462A">本数</p><p style="flex:1; font-size:26px; line-height:1.5; color:#4A5264">隔週1本（月2本）</p></div>
+      <div style="display:flex; gap:24px; padding:14px 0; border-bottom:1px solid #E2DBCD"><p style="width:120px; flex-shrink:0; font-size:24px; font-weight:700; color:#B5462A">中身</p><p style="flex:1; font-size:26px; line-height:1.5; color:#4A5264">企画・撮影・編集・投稿・分析</p></div>
+      <div style="display:flex; gap:24px; padding:14px 0; border-bottom:1px solid #E2DBCD"><p style="width:120px; flex-shrink:0; font-size:24px; font-weight:700; color:#B5462A">撮影</p><p style="flex:1; font-size:26px; line-height:1.5; color:#4A5264">弊社が現場に伺って撮影</p></div>
+      <div style="display:flex; gap:24px; align-items:baseline; padding-top:16px; margin-top:auto"><p style="width:120px; font-size:24px; font-weight:700; color:#B5462A">料金</p><p style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:52px; font-weight:900; color:#B5462A">月額15万円〜</p></div>
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column; gap:8px; background:#1F2A44; border-radius:12px; padding:36px 48px">
+      <p style="font-size:24px; font-weight:700; color:#E6926B">おすすめ</p>
+      <h3 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:40px; font-weight:700; color:#F7F4EE">月4本プラン</h3>
+      <div style="display:flex; gap:24px; padding:14px 0; border-bottom:1px solid #3A4560"><p style="width:120px; flex-shrink:0; font-size:24px; font-weight:700; color:#E6926B">本数</p><p style="flex:1; font-size:26px; line-height:1.5; color:#C9D1E0">毎週1本（月4本）</p></div>
+      <div style="display:flex; gap:24px; padding:14px 0; border-bottom:1px solid #3A4560"><p style="width:120px; flex-shrink:0; font-size:24px; font-weight:700; color:#E6926B">中身</p><p style="flex:1; font-size:26px; line-height:1.5; color:#C9D1E0">企画・撮影・編集・投稿・分析</p></div>
+      <div style="display:flex; gap:24px; padding:14px 0; border-bottom:1px solid #3A4560"><p style="width:120px; flex-shrink:0; font-size:24px; font-weight:700; color:#E6926B">撮影</p><p style="flex:1; font-size:26px; line-height:1.5; color:#C9D1E0">弊社が現場に伺って撮影</p></div>
+      <div style="display:flex; gap:24px; align-items:baseline; padding-top:16px; margin-top:auto"><p style="width:120px; font-size:24px; font-weight:700; color:#E6926B">料金</p><p style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:52px; font-weight:900; color:#E6926B">月額25万円〜</p></div>
+    </div>
+  </div>
+  <p style="font-size:24px; line-height:1.6; color:#4A5264">ご負担は撮影へのご出演のみです。<br>※動画の尺や撮影の手間によって、金額が変わることがあります。</p>
+  <p style="position:absolute; left:128px; bottom:64px; width:1664px; font-size:24px; color:#6A6F7C">家政夫のアニキ御中　YouTube運用 ご提案資料　｜　13</p>
+  <aside class="notes">プランは2つです。隔週1本の月2本プランは月額15万円から、毎週1本の月4本プランは月額25万円からです。どちらも企画・撮影・編集・投稿・分析まで弊社で行い、撮影には弊社が現場に伺います。家政夫のアニキ様のご負担は、撮影への出演だけです。違いは本数だけですが、問い合わせを早く増やしたいなら月4本をおすすめします。動画の尺や撮影の手間によって、金額が変わることがあります。</aside>
+</section>
+<section class="slide" data-index="13" id="nextsteps" data-transition="fade" style="background:#F7F4EE; color:#1F2A44; font-family:'Noto Sans JP', 'Hiragino Sans', Meiryo, sans-serif; padding:128px 128px 160px; display:flex; flex-direction:column; gap:40px">
+  <div style="display:flex; flex-direction:column; gap:16px">
+    <p style="font-size:24px; font-weight:700; color:#B5462A; letter-spacing:3px">13　今後の流れ</p>
+    <h2 style="font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:64px; font-weight:700; line-height:1.3">今後の流れ</h2>
+  </div>
+  <div style="display:flex; flex-direction:column; gap:8px">
+    <div style="display:flex; gap:32px; align-items:center; padding:20px 32px; background:#1F2A44; color:#F7F4EE; border-radius:12px">
+      <p style="width:72px; font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:44px; font-weight:900; color:#E6926B">01</p>
+      <p style="width:140px; font-size:24px; font-weight:700; color:#E6926B">本日</p>
+      <h3 style="width:520px; font-size:32px; font-weight:700">方針のご相談</h3>
+      <p style="flex:1; font-size:26px; line-height:1.6; color:#C9D1E0">現場密着と事業づくりの、どちらから始めるかを決めます</p>
+    </div>
+    <div style="display:flex; gap:32px; align-items:center; padding:20px 32px; border-bottom:1px solid #E2DBCD">
+      <p style="width:72px; font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:44px; font-weight:900; color:#B5462A">02</p>
+      <p style="width:140px; font-size:24px; font-weight:700; color:#6A6F7C">ご依頼後</p>
+      <h3 style="width:520px; font-size:32px; font-weight:700">企画のご提案</h3>
+      <p style="flex:1; font-size:26px; line-height:1.6; color:#4A5264">狙う検索語と、最初の4本の企画をお送りします</p>
+    </div>
+    <div style="display:flex; gap:32px; align-items:center; padding:20px 32px; border-bottom:1px solid #E2DBCD">
+      <p style="width:72px; font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:44px; font-weight:900; color:#B5462A">03</p>
+      <p style="width:140px; font-size:24px; font-weight:700; color:#6A6F7C"></p>
+      <h3 style="width:520px; font-size:32px; font-weight:700">撮影の開始</h3>
+      <p style="flex:1; font-size:26px; line-height:1.6; color:#4A5264">現場の予定に合わせて撮影日を決め、制作を始めます</p>
+    </div>
+    <div style="display:flex; gap:32px; align-items:center; padding:20px 32px">
+      <p style="width:72px; font-family:'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif; font-size:44px; font-weight:900; color:#B5462A">04</p>
+      <p style="width:140px; font-size:24px; font-weight:700; color:#6A6F7C"></p>
+      <h3 style="width:520px; font-size:32px; font-weight:700">運用・改善</h3>
+      <p style="flex:1; font-size:26px; line-height:1.6; color:#4A5264">毎月、再生数と問い合わせ数を見て、次の企画を直します</p>
+    </div>
+  </div>
+  <p style="position:absolute; left:128px; bottom:64px; width:1664px; font-size:24px; color:#6A6F7C">家政夫のアニキ御中　YouTube運用 ご提案資料　｜　14</p>
+  <aside class="notes">本日は、方針のご相談までです。現場密着から始めるか、事業づくりの過程から始めるか、両方を混ぜるかを決めます。ご依頼いただいたら、狙う検索語と最初の4本の企画をお送りします。現場の予定に合わせて撮影日を決めて制作を始め、毎月、再生数と問い合わせ数を見て次の企画を直します。</aside>
+</section>
+</main>
+<nav class="ui" aria-label="スライド操作">
+  <button type="button" id="prev" aria-label="前のスライド">‹ 前へ</button>
+  <span class="counter" id="counter"></span>
+  <button type="button" id="next" aria-label="次のスライド">次へ ›</button>
+  <button type="button" id="fs" aria-label="全画面表示">全画面</button>
+</nav>
+<script>
+(function(){
+  var slides=[].slice.call(document.querySelectorAll('.slide'));
+  var stage=document.getElementById('stage');
+  var counter=document.getElementById('counter');
+  var cur=0;
+  function fromHash(){var n=parseInt(location.hash.replace('#',''),10);return isNaN(n)?0:Math.min(Math.max(n-1,0),slides.length-1);}
+  function show(i){
+    cur=Math.min(Math.max(i,0),slides.length-1);
+    slides.forEach(function(s,k){s.classList.toggle('active',k===cur);s.setAttribute('aria-hidden',k===cur?'false':'true');});
+    counter.textContent=(cur+1)+' / '+slides.length;
+    if(location.hash!=='#'+(cur+1))history.replaceState(null,'','#'+(cur+1));
+  }
+  function fit(){
+    var s=Math.min(window.innerWidth/1920,window.innerHeight/1080);
+    stage.style.transform='translate(-50%,-50%) scale('+s+')';
+    stage.style.transformOrigin='center center';
+  }
+  document.getElementById('prev').onclick=function(){show(cur-1)};
+  document.getElementById('next').onclick=function(){show(cur+1)};
+  document.getElementById('fs').onclick=function(){
+    if(!document.fullscreenElement){document.documentElement.requestFullscreen&&document.documentElement.requestFullscreen();}
+    else{document.exitFullscreen&&document.exitFullscreen();}
+  };
+  document.addEventListener('keydown',function(e){
+    if(e.target.tagName==='BUTTON'&&(e.key===' '||e.key==='Enter'))return;
+    if(['ArrowRight','PageDown',' '].indexOf(e.key)>=0){e.preventDefault();show(cur+1);}
+    else if(['ArrowLeft','PageUp'].indexOf(e.key)>=0){e.preventDefault();show(cur-1);}
+    else if(e.key==='Home')show(0);
+    else if(e.key==='End')show(slides.length-1);
+    else if(e.key==='f'||e.key==='F')document.getElementById('fs').click();
+  });
+  stage.addEventListener('click',function(e){
+    if(e.target.closest('a'))return;
+    show(e.clientX<window.innerWidth/3?cur-1:cur+1);
+  });
+  var tx=null;
+  document.addEventListener('touchstart',function(e){tx=e.touches[0].clientX},{passive:true});
+  document.addEventListener('touchend',function(e){if(tx===null)return;var dx=e.changedTouches[0].clientX-tx;if(Math.abs(dx)>40)show(dx<0?cur+1:cur-1);tx=null;});
+  window.addEventListener('resize',fit);
+  window.addEventListener('hashchange',function(){show(fromHash())});
+  fit();show(fromHash());
+})();
+</script>
+</body>
+</html>
